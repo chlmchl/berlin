@@ -1,0 +1,26 @@
+@pnum = [ numbersign Euro dollar cent yen zero one two three four five six seven eight nine ];
+@tnum = [ numbersign.tnum Euro.tnum dollar.tnum cent.tnum yen.tnum zero.tnum one.tnum two.tnum three.tnum four.tnum five.tnum six.tnum seven.tnum eight.tnum nine.tnum ];
+
+feature dlig {
+  sub T h by T_h.dlig ;
+  sub f k by f_k.dlig ;
+  sub f b by f_b.dlig ;
+  sub f h by f_h.dlig ;
+  sub f j by f_j.dlig ;
+  sub q j by q_j.dlig ;
+  
+} dlig;
+
+feature liga {
+  sub f l by fl;
+  sub f i by fi;
+  sub f f by f_f;
+  sub f f i by f_f_i;
+  sub f f l by f_f_l;
+} liga;feature tnum {
+    sub @pnum by @tnum ; 
+    } tnum;
+    
+feature pnum {
+    sub @tnum by @pnum ; 
+    } pnum;
