@@ -1,0 +1,18 @@
+<?xml version="1.0"?><svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+ <title>Green Post It Note</title>
+ <defs>
+  <filter id="filter3342">
+   <feGaussianBlur stdDeviation="9.409953" id="feGaussianBlur3344"/>
+  </filter>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1"/>
+  <g id="g3346" transform="matrix(1.00825, 0, 0, 1.21693, 817.792, 101.641)">
+   <path id="path3256" d="m-420.728546,-4.94841l52.860168,247.600922l-387.911896,10.367554l1.37207,-245.771366l333.679657,-12.197109z" filter="url(#filter3342)" stroke-width="1px" stroke="#000000" fill-rule="evenodd" fill="#ffffaa"/>
+   <path id="path3751" d="m-766.182312,-3.418442l362.644745,-15.152279c8.417938,86.075314 17.728729,172.288998 26.146667,256.461422c-98.189545,11.57666 -256.377594,11.593506 -390.811676,18.300034c7.561218,-86.536362 7.789368,-173.072762 2.020264,-259.609177z" stroke-width="1px" fill-rule="evenodd" fill="#ffffaa"/>
+   <path id="path2474" d="m-766.810791,-5.233082l362.644714,-15.152309c8.417938,86.075348 17.728729,172.289001 26.146698,256.461456c-98.189575,11.57666 -256.377655,11.593506 -390.811676,18.300049c7.561157,-86.536407 7.789307,-173.072815 2.020264,-259.609196z" stroke-width="1px" fill-rule="evenodd" fill="#ffffaa"/>
+  </g>
+ </g>
+</svg>
