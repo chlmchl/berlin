@@ -10,10 +10,14 @@ YP       `Y88P'  VP   V8P    YP       */
 @font-face {
   font-family: 'bilboINC';
   src: url(../font/BilboINC-Regular_web.ttf);
+  src: url(../font/BilboINC-Regular_web.otf);
+  src: url(../font/BilboINC-Regular_web.woff);
+  src: url(../font/BilboINC-Regular_web.woff2);
 }
 
 @font-face {
   font-family: 'pilowlava';
+  src: url(../font/pilowlava-regular.otf);
   src: url(../font/pilowlava-regular.eot);
   src: url(../font/pilowlava-regular.woff);
   src: url(../font/pilowlava-regular.woff2);
@@ -210,6 +214,14 @@ Y888888P YP  YP  YP YP   YP  Y888P  Y88888P `8888Y'
   left: 50px;
 }
 
+#home_end {
+  position: absolute;
+  z-index: 1000;
+  width: 300px;
+  bottom:30%;
+  right: 20%;
+}
+
 header p.marquee span{
   font-size: 1.02em;
   color: #39ff14;
@@ -227,6 +239,130 @@ header p.marquee span{
     /*margin-left: -100px;*/
 
  }
+
+.endflag {
+  width: 150px;
+  position: absolute;
+  z-index: 1100;
+}
+
+#flag{
+  
+  animation: rain 7s 5s infinite;
+}
+
+@keyframes rain {
+  0% {transform: translate(25px,-150px) rotate(0deg);}
+  100% {transform: translate(25px, 150vh) rotate(180deg);}
+}
+
+#flag1{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainone 6s 0s infinite linear;
+}
+
+@keyframes rainone {
+  0% {transform: translate(50vw,-300px) rotate(0deg);}
+  100% {transform: translate(50vw, 150vh) rotate(100deg);}
+}
+
+#flag2{
+
+  position: absolute;
+  z-index: 1000;
+  animation: raintwo 5s 1.5s infinite linear;
+}
+
+@keyframes raintwo {
+  0% {transform: translate(83vw,-200px) rotate(0deg);}
+  100% {transform: translate(83vw, 150vh) rotate(-130deg);}
+}
+
+#flag3{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainthree 6s 8s infinite linear;
+}
+
+@keyframes rainthree {
+  0% {transform: translate(70vw,-150px) rotate(0deg);}
+  100% {transform: translate(70vw, 150vh) rotate(-130deg);}
+}
+
+#flag4{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainfour 6s 4s infinite linear;
+}
+
+@keyframes rainfour {
+  0% {transform: translate(34vw,-150px) rotate(0deg);}
+  100% {transform: translate(34vw, 150vh) rotate(-90deg);}
+}
+
+#flag5{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainfive 7s 5.5s infinite linear;
+}
+
+@keyframes rainfive {
+  0% {transform: translate(20vw,-150px) rotate(0deg);}
+  100% {transform: translate(20vw, 150vh) rotate(160deg);}
+}
+
+#flag6{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainsix 5s 3s infinite linear;
+}
+
+@keyframes rainsix {
+  0% {transform: translate(90vw,-150px) rotate(0deg);}
+  100% {transform: translate(90vw, 150vh) rotate(130deg);}
+}
+
+#flag7{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainseven 5s 1s infinite linear;
+}
+
+@keyframes rainseven {
+  0% {transform: translate(05vw,-150px) rotate(0deg);}
+  100% {transform: translate(05vw, 150vh) rotate(-130deg);}
+}
+
+#flag8{
+
+  position: absolute;
+  z-index: 1000;
+  animation: raineight 7s 6s infinite linear;
+}
+
+@keyframes raineight {
+  0% {transform: translate(15vw,-150px) rotate(0deg);}
+  100% {transform: translate(15vw, 150vh) rotate(200deg);}
+}
+
+#flag9{
+
+  position: absolute;
+  z-index: 1000;
+  animation: rainnine 6s 0s infinite linear;
+}
+
+@keyframes rainnine {
+  0% {transform: translate(45vw,-150px) rotate(0deg);}
+  100% {transform: translate(45vw, 150vh) rotate(140deg);}
+}
 
 /* index*/
 
